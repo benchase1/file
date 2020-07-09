@@ -1,9 +1,12 @@
-<!doctype html>
-<html>
 <head>
+  <title>File Server</title>
 </head>
 
 <body>
-<p>File server. How did you get here?</p>
+  <h3>Index of /</h3>
+  <p>
+    {% for url in site.static_files %}
+    <a href="{{ site.baseurl | escape }}{{ url.path | escape }}">{{ url.path | escape }}</a> <br>
+    {% endfor %}
+  </p>
 </body>
-</html>
