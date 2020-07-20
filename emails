@@ -1,5 +1,9 @@
+<!doctype html>
+<html>
+<head>
 <title>Email List</title>
-
+</head>
+<body>
 <h1>Current Email List</h1>
 
 <h3>People</h3>
@@ -17,3 +21,6 @@
 <b>Roads Database</b> - roads@benchase.tk<br>
 <b>Website</b> - web@benchase.tk<br>
 <b>YouTube Channel</b> - youtube@benchase.tk</p>
+
+</body>
+</html>
